@@ -1,0 +1,142 @@
+div, p, input, button, form, span, a, ul,li{
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.8em;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 h2 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 37px;
+}
+
+.offer span{
+    font-size: 59px;
+}
+
+.container {
+    width: 1171px;
+    margin: 0 auto;
+}
+
+header {
+    background: rgb(77,191,254);
+    background: linear-gradient(90deg, rgba(77,191,254,1) 35%, rgba(55,143,217,1) 100%);
+    padding-top:90px ;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.offer {
+    margin-top: 150px;
+    width: 560px;
+}
+
+.title{
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 440px;
+}
+
+.btn {
+    background: #ffd429;
+    color: #2e2a1b;
+    display: block;
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transition: all 1s ease;
+}
+
+.icon1, .icon2, .icon3{
+width: 300px;
+text-align: center;;
+margin-bottom: 120px;
+}
+
+
+.future {
+text-align: center;
+margin-top: 100px;
+margin-bottom: 70px;
+}
+
+.p_section{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    background-color: #ecf3f8;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input {
+    width: 340px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #9c9b9f;
+    border-color: #bbbbbb;
+}
+
+footer {
+    background-color: #164d7a;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+button {
+    background: #ffd429;
+    color: #2e2a1b;
+    display: block;
+    width: 340px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    transition: all 1s ease;
+    border-color: #ffd429;
+}

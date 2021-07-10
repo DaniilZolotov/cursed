@@ -140,3 +140,54 @@ button {
     transition: all 1s ease;
     border-color: #ffd429;
 }
+
+/* Responsive  */
+
+@media screen and (max-width: 1200px){
+    .container {
+		width: 960px;
+	}
+    .title {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .container {
+		width: 720px;
+	}
+    .title {
+        width: auto;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;}
+    
+    .desktop {
+        display: block;
+        width: 560px;
+        height: auto;}
+
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    
+    .offer{
+        margin-top: 0px;
+    }
+
+
+}

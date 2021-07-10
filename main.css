@@ -115,7 +115,7 @@ input {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color: #9c9b9f;
-    border-color: #bbbbbb;
+    border: 1px solid #bfb8d1;
 }
 
 footer {

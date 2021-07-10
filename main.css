@@ -187,7 +187,17 @@ button {
     
     .offer{
         margin-top: 0px;
+        width: auto;
     }
 
+    .desktop{
+        width: 240px;
+    }
 
+    input {
+        width: 280px;
+    }
+    button {
+        width: 280px;
+    }
 }

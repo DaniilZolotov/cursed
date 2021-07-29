@@ -11,6 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -139,6 +140,10 @@ button {
     font-size: 15px;
     transition: all 1s ease;
     border-color: #ffd429;
+}
+
+animated {
+    opacity: 0;
 }
 
 /* Responsive  */

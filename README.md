@@ -1,0 +1,1 @@
+Деплой - https://daniilzolotov.github.io/cursed/
